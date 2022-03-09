@@ -1,0 +1,82 @@
+body{
+    background-color: #D8E4EF;
+}
+header{
+    border-radius: 28px;
+}
+
+.box {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.box p {
+    background: pink;
+}
+
+.to_left {
+    width: 0;
+    height: 0;
+    border-right: 30px solid #ffd900;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
+
+.Container-profile{
+    margin-top: 4%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 28px;
+    background: #E6E6E6;
+    width: 50%;
+    height: 800px;
+    text-align: center;
+    border: solid 5px #6DBAF1;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(83, 82, 82)
+}
+
+h3{
+    font-size: 35px;
+    color: rgb(83, 82, 82)
+    
+}
+.fotito{
+    border-radius: 50%;
+    background: red;
+    width: 30%;
+    height: 200px;
+}
+
+#user{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: transparent;
+    outline: none;
+    font-size:60px;
+    height: 70px;
+    width: 550px;
+}
+
+.inp-info{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+background: transparent;
+outline: none;
+font-size:40px;
+height: 50px;
+width: 300px;
+}
+
+.inp-info-long{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background: transparent;
+outline: none;    
+font-size:40px;
+height: 50px;
+width: 670px;
+}

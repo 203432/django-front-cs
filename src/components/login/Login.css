@@ -1,0 +1,75 @@
+body{
+    background-color: #D8E4EF;
+}
+header{
+    border-radius: 28px;
+}
+
+.Container-login{
+    margin-top: 4%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 28px;
+    background: #E6E6E6;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+}
+.Container-login-header{
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    background: #6DBAF1;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+
+.Input-lgn{
+    color: #000000;
+    border-radius: 14px;
+    border: 0;
+    width: 80%;
+    margin: 20px;
+    height: 38px;
+    text-align: center;
+    font-size: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+input::placeholder{
+    color: #C4C4C4;
+}
+
+
+button{
+    width: 140px;
+    height: 54px;
+    border-radius: 14px;
+    font-size: 23px;
+}
+.btn-login{
+border: #6DBAF1;
+background: #6DBAF1;
+color: #E6E6E6;
+margin-left: 20px;
+}
+.btn-login:hover{
+    background: #3d8ac0;
+}
+
+.btn-register{
+    background: transparent;
+    border: solid 2px#6DBAF1;
+    color: #6DBAF1;
+}
+.btn-register:hover{
+    background: #3d8ac0;
+    color: #E6E6E6;
+}
